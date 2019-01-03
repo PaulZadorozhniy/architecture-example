@@ -1,0 +1,17 @@
+{
+  "name": "external-api",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "test:unit": "NODE_ENV=test ../node_modules/.bin/mocha --opts ./test/mocha.unit.opts --reporter mocha-teamcity-reporter",
+    "test:acceptance": "../node_modules/.bin/mocha --opts ./test/mocha.acceptance.opts --reporter mocha-teamcity-reporter"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "newrelic": "4.1.2"
+  }
+}

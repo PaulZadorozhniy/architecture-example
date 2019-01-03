@@ -1,0 +1,33 @@
+{
+  "name": "listeners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ts-node src/app",
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha test/**/*.test.js --recursive --timeout=15000 --exit",
+    "test:integration": "NODE_ENV=test ./node_modules/.bin/mocha --opts ../test/mocha.integration.opts",
+    "test:unit": "NODE_ENV=test ../node_modules/.bin/mocha --opts ../test/mocha.unit.opts --reporter mocha-teamcity-reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0",
+    "mocha-teamcity-reporter": "^2.4.0",
+    "sinon": "^5.0.7"
+  },
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "amqplib": "^0.5.2",
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "lodash": "^4.17.10",
+    "newrelic": "4.1.2",
+    "url-join": "^4.0.0"
+  }
+}

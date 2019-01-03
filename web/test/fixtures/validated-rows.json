@@ -1,0 +1,52 @@
+[
+  {
+    "learningObjectiveId": 1,
+    "parentObjectiveId": null,
+    "bloomsLevel": "",
+    "objectiveType": "Terminal",
+    "objective": "Describe Active Directory Architecture",
+    "skillCurriculumLeadEmail": "curruculum-test@example.com",
+    "roleNames": ["Server Administrator (Microsoft Windows Server)"],
+    "skillNames": ["Active Directory Administration"]
+  },
+  {
+    "learningObjectiveId": 2,
+    "parentObjectiveId": 1,
+    "bloomsLevel": "",
+    "objectiveType": "Enabling",
+    "objective": "Describe Forest, Trees, Domains",
+    "skillCurriculumLeadEmail": "curruculum-test@example.com",
+    "roleNames": ["Server Administrator (Microsoft Windows Server)"],
+    "skillNames": ["Active Directory Administration"]
+  },
+  {
+    "learningObjectiveId": 3,
+    "parentObjectiveId": 1,
+    "bloomsLevel": "",
+    "objectiveType": "Enabling",
+    "objective": "Describe the Active Directory Schema",
+    "skillCurriculumLeadEmail": "curruculum-test@example.com",
+    "roleNames": ["Server Administrator (Microsoft Windows Server)"],
+    "skillNames": ["Active Directory Administration"]
+  },
+  {
+    "learningObjectiveId": 4,
+    "parentObjectiveId": 1,
+    "bloomsLevel": "",
+    "objectiveType": "Enabling",
+    "objective": "Describe Active Directory Partitions",
+    "skillCurriculumLeadEmail": "curruculum-test@example.com",
+    "roleNames": ["Server Administrator (Microsoft Windows Server)"],
+    "skillNames": ["Active Directory Administration"]
+  },
+  {
+    "learningObjectiveId": 5,
+    "parentObjectiveId": 1,
+    "bloomsLevel": "",
+    "objectiveType": "Enabling",
+    "objective": "Describe the Global Catalog",
+    "skillCurriculumLeadEmail": "curruculum-test@example.com",
+    "roleNames": ["Server Administrator (Microsoft Windows Server)"],
+    "skillNames": ["Active Directory Administration"]
+  }
+]

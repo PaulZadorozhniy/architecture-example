@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "web-app",
+      "script": "./web/index.ts",
+      "interpreter": "./node_modules/.bin/ts-node",
+      "watch": true
+    },
+    {
+      "name": "external-api",
+      "script": "./external-api/index.ts",
+      "interpreter": "./node_modules/.bin/ts-node",
+      "watch": true
+    },
+    {
+      "name": "listeners",
+      "script": "./listeners/src/app.ts",
+      "interpreter": "./node_modules/.bin/ts-node",
+      "watch": true
+    }
+  ]
+}

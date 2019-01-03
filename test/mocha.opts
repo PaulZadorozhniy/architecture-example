@@ -1,0 +1,6 @@
+--require ts-node/register
+--recursive
+--reporter spec
+--exit
+
+{,!(node_modules)/**/test/**/}*test.ts*
